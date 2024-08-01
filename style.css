@@ -26,6 +26,7 @@ body{
 .hero{
   display: flex;
   justify-content: center;
+  height: 700px;
 }
 
 .hero__content{
@@ -60,9 +61,39 @@ body{
 
 .hero__description{
   margin-top: 10px;
-
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-weight: 500; 
   font-size: 20px;
+}
+
+.furthers__content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.furthers__title{
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700; 
+  font-size: 64px;
+}
+
+.furthers__description{
+  margin-bottom: 10px;
+  color: gray;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500; 
+  width: 399px;
+  font-size: 20px;
+}
+
+.furthers_img{
+  width: 590px;
+  height: 700px;
+}
+
+.furthers__titles{
+  margin-top: 50px;
 }
